@@ -1,8 +1,8 @@
 document.getElementById("toLogin").addEventListener("click", function() {
-    window.location.href = "/login";
+    window.location.href = "https://stock-tracker-login.expense-tracker-demo.site";
 });
 document.getElementById("toSignup").addEventListener("click", function() {
-    window.location.href = "/signup";
+    window.location.href = "https://stock-tracker-signup.expense-tracker-demo.site";
 });
 
 document.addEventListener('DOMContentLoaded', function () {

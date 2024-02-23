@@ -17,6 +17,6 @@ function cookieCheck()
     if(document.cookie.split(';').some((item) => item.trim().startsWith(`${cookie_name}=`)))
     {
         console.log("true")
-        window.location.href = "/dash";
+        window.location.href = "https://stock-tracker-dashboard.expense-tracker-demo.site";
     }
 }
